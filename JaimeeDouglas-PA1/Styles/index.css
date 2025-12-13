@@ -1,0 +1,139 @@
+/* ---------- PAGE BASE ---------- */
+.page-bg {
+  background: #eef1f3;
+  color: #222;
+}
+
+.sidebar-bg {
+  background: #f5f5f5;
+}
+
+.content-bg {
+  background: #eef1f3;
+}
+
+/* ---------- NAVBAR ---------- */
+.bg-red {
+  background: #9E1B32;
+}
+
+/* ---------- TABS ---------- */
+.tabs-text {
+  text-align: center;
+  font-family: fantasy;
+  margin: 0;
+}
+
+.tabs-text a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.tabs-text a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- HEADSHOT (LARGER, LIKE YOUR ORIGINAL) ---------- */
+.headshot-large {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 80%;   
+  border: 5px solid #9E1B32;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ---------- ABOUT CARD ---------- */
+.about-card {
+  background: #9E1B32;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+.about-text {
+  font-family: fantasy;
+  font-size: 1rem;
+}
+
+#big {
+  font-size: 15px;
+}
+
+/* ---------- CONTENT CARDS ---------- */
+.content-card {
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.page-title {
+  font-family: "Snell Roundhand", cursive;
+  margin: 0;
+}
+
+.section-title {
+  font-weight: 700;
+  color: #9E1B32;
+}
+
+/* ---------- CERTIFICATIONS IMAGES ---------- */
+.cert-img {
+  height: 210px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* ---------- TABLE TWEAK ---------- */
+.table-col-num {
+  width: 80px;
+}
+
+/* ---------- WORK EXPERIENCE ---------- */
+.work-card {
+  background: #ffffff;
+  color: #222;
+  border: 1px solid rgba(0,0,0,.10);
+}
+
+/* Titles inside the work card */
+.work-role {
+  font-size: 1.05rem;
+  font-weight: 800;
+  margin: 0;
+  color: #9E1B32;
+}
+
+.work-dates {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 4px 0 8px 0;
+  color: #555;
+}
+
+/* Bullet list formatting */
+.work-bullets {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.work-bullets li {
+  margin-bottom: 6px;
+}
+
+/* Divider between jobs */
+.work-divider {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,.12);
+  margin: 12px 0;
+}
