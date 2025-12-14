@@ -33,7 +33,7 @@
   text-decoration: underline;
 }
 
-/* ---------- HEADSHOT (LARGER, LIKE YOUR ORIGINAL) ---------- */
+/* ---------- HEADSHOT ---------- */
 .headshot-large {
   width: 300px;
   height: 400px;
@@ -131,7 +131,7 @@
   margin-bottom: 6px;
 }
 
-/* Divider between jobs */
+/* Divider */
 .work-divider {
   border: none;
   border-top: 1px solid rgba(0,0,0,.12);
